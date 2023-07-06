@@ -34,16 +34,8 @@ class HomeFragment : Fragment() {
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textHome
-        val btnMattiaC: Button = binding.btnMattiaC
-        homeViewModel.text.observe(viewLifecycleOwner) {
-            textView.text = it
-        }
-
-        btnMattiaC.setOnClickListener{ view ->
-            val x = Random.nextInt(0 until names.size)
-            val y = Random.nextInt(0 until agg.size)
-            textView.text = "${names[x]} sei un ${agg[y]}"
+        binding.fab.setOnClickListener {
+            binding.fab.visibility = View.GONE
         }
         return root
     }

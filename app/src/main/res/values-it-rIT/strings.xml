@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="navigation_drawer_open">Apri menù</string>
+    <string name="navigation_drawer_close">Chiudi menù</string>
+    <string name="nav_header_desc">Intestazione menù</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Galleria</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_map">Mappa</string>
+    <string name="map_view_noise_map">Visualizza Mappa Sonora</string>
+</resources>
